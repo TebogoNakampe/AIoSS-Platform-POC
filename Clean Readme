@@ -1,0 +1,10 @@
+1. export PATH=~/anaconda2/bin:$PATH
+2. source activate root
+3.cd AIoSS/
+3.python manage.py migrate
+4.python manage.py collectstatic
+5.python manage.py runserver
+
+Navigate to browser
+ http://localhost:8000
+
